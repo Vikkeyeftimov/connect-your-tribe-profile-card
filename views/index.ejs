@@ -1,18 +1,20 @@
 <%- include('./partials/head') %>
 
+<article class="artikel">
+
 <!-- START HOMESCREEN -->
 
-<section class="h1-first-slide">
+<section class="first-slide">
 
   <h1>Viktor Eftimov</h1>
   <h2>profile card</h2>
 
-  <img src="prachtfoto.jpeg" alt="prachtige foto van Viktor Eftimov" width="250">
+  <img class="prachtimagen" src="prachtfoto.jpeg" alt="prachtige foto van Viktor Eftimov" width="190">
   
   <p>Hallo en welkom bij mijn vistiekaartje! Ik ben een jonge Frontend designer die veel repect en nieuwsgierigheid hebt voor het maken van website. wil je meer over mij weten klik dan op één van de knoppen die zou je dan meer over mij vertellen.
   </p>  
   <button class="hobbies-button">Hobbies</button>
-  <button class="Persoonlijk-button">Persoonlijk informatie</button>
+  <button class="persoonlijk-button">Persoonlijk informatie</button>
   <button class="favorieten-button">Mijn favorieten dingen</button>
   <button class="skills-button">Skills</button>
 
@@ -21,18 +23,18 @@
 <!-- END HOMESCREEN -->
 <!-- START FIRSTSLIDE -->
 
-<section class="h2-hobbies">
+<section class="hobbies">
 
   <h2>Hobbies</h2>
   <button class="terug-button"><?xml version="1.0" ?><svg id="return-back-redo-arrow" style="enable-background:new 0 0 15.207 10.854;" version="1.1" viewBox="0 0 15.207 10.854" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.707,0h-4v1h4c1.378,0,2.5,1.122,2.5,2.5S13.085,6,11.707,6H1.914l3.146-3.146L4.354,2.146L0,6.5l4.354,4.354  l0.707-0.707L1.914,7h9.793c1.93,0,3.5-1.57,3.5-3.5S13.637,0,11.707,0z"/></svg>
   Terug</button>
   <ul>
-    <li>Voetbal</li>
-    <li>Gamen</li>
-    <li>Gymmen</li>
-    <li>Hardlopen</li>
-    <li>Feesten</li>
-    <li>Films kijken</li>
+    <li>Voetbal⚽</li>
+    <li>Gamen🎮</li>
+    <li>Gymmen🏋️‍♀️</li>
+    <li>Hardlopen🏃</li>
+    <li>Feesten🥂</li>
+    <li>Films kijken🎬</li>
   </ul>
 
 </section>
@@ -40,37 +42,46 @@
 <!-- END FIRSTSLIDE -->
 <!-- BEGIN SECONDSLIDE -->
 
-<section class="h2-persoonlijk">
-<h2>Persoonlijk informatie</h2>
-<button class="terug-button"><?xml version="1.0" ?><svg id="return-back-redo-arrow" style="enable-background:new 0 0 15.207 10.854;" version="1.1" viewBox="0 0 15.207 10.854" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.707,0h-4v1h4c1.378,0,2.5,1.122,2.5,2.5S13.085,6,11.707,6H1.914l3.146-3.146L4.354,2.146L0,6.5l4.354,4.354  l0.707-0.707L1.914,7h9.793c1.93,0,3.5-1.57,3.5-3.5S13.637,0,11.707,0z"/></svg>
-  Terug</button>
-<ul>
-  <li>Geboorte: 12-01-2005</li>
-  <li>Lengte: 1.86m</li>
-  <li>Nickname: Vikkey</li>
-  <li>Telefoon_nummer: 0643479034</li>
-  <li>Email: Vikksaus@hotmail.com</li>
-  <li>Woonplek: Amstelveen</li>
-  <li>Havo diploma</li>
-</ul>
+<section class="h-persoonlijk">
+  <h2>Persoonlijk informatie</h2>
+  <button class="terug-button"><?xml version="1.0" ?><svg id="return-back-redo-arrow" style="enable-background:new 0 0 15.207 10.854;" version="1.1" viewBox="0 0 15.207 10.854" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.707,0h-4v1h4c1.378,0,2.5,1.122,2.5,2.5S13.085,6,11.707,6H1.914l3.146-3.146L4.354,2.146L0,6.5l4.354,4.354  l0.707-0.707L1.914,7h9.793c1.93,0,3.5-1.57,3.5-3.5S13.637,0,11.707,0z"/></svg>
+    Terug</button>
+  <dl>
+    <dt>Geboorte:</dt> 
+      <dd>12-01-2005</dd>
+    <dt>Lengte:</dt> 
+      <dd>1.86m</dd>
+    <dt>Nickname:</dt> 
+      <dd>Vikkey</dd>
+    <dt>Telefoon_nummer:</dt> 
+      <dd>0643479034</dd>
+    <dt>Email:</dt> 
+      <dd>Vikksaus@hotmail.com</dd>
+    <dt>Woonplek:</dt> 
+      <dd>Amstelveen</dd>
+    <dt>Opleiding:</dt> 
+      <dd>Havo</dd>
+  </dl>
 </section>
 
   <!-- END SECONDSLIDE -->
   <!-- BEGIN  THIRDSLIDE -->
 
-  <section class="h2-skills">
+  <section class="h-skills">
     <h2>Skills</h2>
-    <button class="terug-button"><?xml version="1.0" ?><svg id="return-back-redo-arrow" style="enable-background:new 0 0 15.207 10.854;" version="1.1" viewBox="0 0 15.207 10.854" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.707,0h-4v1h4c1.378,0,2.5,1.122,2.5,2.5S13.085,6,11.707,6H1.914l3.146-3.146L4.354,2.146L0,6.5l4.354,4.354  l0.707-0.707L1.914,7h9.793c1.93,0,3.5-1.57,3.5-3.5S13.637,0,11.707,0z"/></svg>
+    <button class="terug-button"><?xml version="1.0" ?><svg id="return-back-redo-arrow" style="enable-background:new 0 0 15.207 10.854; fill:red;" version="1.1" viewBox="0 0 15.207 10.854" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M11.707,0h-4v1h4c1.378,0,2.5,1.122,2.5,2.5S13.085,6,11.707,6H1.914l3.146-3.146L4.354,2.146L0,6.5l4.354,4.354  l0.707-0.707L1.914,7h9.793c1.93,0,3.5-1.57,3.5-3.5S13.637,0,11.707,0z"/></svg>
       Terug</button>
     <ul>
       <li>HTML</li>
       <li>CSS</li>
       <li>JAVASCRIPT</li>
-      <li>Schoonmaken</li>
-      <li>luisteren naar andere</li>
+      <li>Schoonmaken🪣</li>
+      <li>luisteren naar andere👂</li>
+      <li>frisbeeen🥏</li>
     </ul>
   </section>
 
 <!-- END THIRDSLIDE -->
 
+</article>
 <%- include('./partials/foot') %>
