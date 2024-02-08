@@ -9,6 +9,12 @@
   font-family: sans-serif;
 
 }
+
+/* .artikel{
+  display: flex;
+  flex-direction: row;
+} */
+
 body {
   margin: 0;
   box-sizing: border-box;
@@ -26,14 +32,16 @@ section{
   height: 650px;
   display: flex;
   place-items: center center;
-  justify-content: center;
   flex-direction: column;
   border-radius: 2em;
-  background-color: #1A01C0;
+  /* background-color: #1A01C0; */
   margin-inline: auto;
   margin-block: 2em;
   padding: 1.2em;
+  margin: 50px;
 }
+
+/* BEGIN 4 SECTION */
 .first-slide{
   display: flex;
   justify-content: center;
@@ -42,8 +50,18 @@ section{
 }
 
 .hobbies{
-  border: var(--primaireborder);
+  background-image: linear-gradient(to right, #9932cc, rgb(141, 34, 141), #1A01C0);
 }
+
+.persoonlijk{
+  background-image: linear-gradient(180deg, #1A01C0, #9932cc);
+}
+
+.skills{
+  background-image: radial-gradient( #9932cc 20%, #1A01C0 75%, rgb(141, 34, 141));
+}
+
+/* END 4 SECTION */
 
 h1{
   font-size: 2em;
@@ -78,3 +96,24 @@ h2{
   cursor: pointer;
 }
 
+.terug-button{
+  position: relative;
+  left: -200px;
+  top: 540px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  float: left;
+}
+
+.terug-button:hover{
+  background-color: rgb(126, 124, 124);
+}
+
+.terug-button:active{
+  background-color: rgb(169, 168, 168);
+  box-shadow: #a4a3a3;
+
+}
