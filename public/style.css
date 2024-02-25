@@ -51,12 +51,12 @@ section{
   z-index: 4;
 }
 
-.specialehobbies{
+.specialhobby{
   background-image: linear-gradient(to right, #9932cc, rgb(141, 34, 141), #1A01C0);
   z-index: 3;
 }
 
-.persoonlijk{
+.personal{
   background-image: linear-gradient(180deg, #1A01C0, #9932cc);
   z-index: 2;
 }
@@ -74,7 +74,7 @@ section{
 
 /* END 4 SECTION */
 
-.hobbiesswitch{
+.hobbyswitch{
   background-image: linear-gradient(to right, #9932cc, rgb(141, 34, 141), #1A01C0);
   z-index: 5;
 }
@@ -89,7 +89,7 @@ p, ul, dl{
   font-size: var(--fontpsize);
 }
 
-.prachtimagen{
+.cuteimg{
   border-radius: 2em;
   border: 3px solid var(--thirdcolor);
 }
@@ -104,7 +104,7 @@ p, ul, dl{
   }
 }
 
-.hobbies-button, .persoonlijk-button, .skills-button{
+.hobby-button, .personal-button, .skills-button{
   border: 3px solid #Ffd700;
   border-radius: 5em;
   background-color: var(--seccolor);
@@ -118,7 +118,7 @@ p, ul, dl{
   margin: 10px;
 }
 
-.terug-button{
+.back-button{
   position: relative;
   left: -200px;
   top: 540px;
@@ -130,12 +130,25 @@ p, ul, dl{
   float: left;
 }
 
-.terug-button:hover{
+.back-button:hover{
   background-color: rgb(126, 124, 124);
 }
 
-.terug-button:active{
+.back-button:active{
   background-color: rgb(169, 168, 168);
   box-shadow: #a4a3a3;
 
+}
+
+@media (max-width: 520px) {
+  section{
+    width: 520px;
+    font-size: 15px;
+  }
+  p{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
